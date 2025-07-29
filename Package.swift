@@ -13,15 +13,12 @@ let package = Package(
             targets: ["DuplicateFinder"]
         ),
     ],
-    dependencies: [
-        // Add external dependencies here if needed in the future
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "DuplicateFinder",
             dependencies: [],
-            path: "Sources/DuplicateFinder",
-            resources: []
+            path: "Sources/DuplicateFinder"
         ),
         .testTarget(
             name: "DuplicateFinderTests",
